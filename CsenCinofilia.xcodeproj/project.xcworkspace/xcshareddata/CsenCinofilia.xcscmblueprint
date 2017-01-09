@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "403EEF8CBED78186A1140000B605C932AD9D3C72",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01AA6467AF8AB7E06766E8BFB262A430BD1FA7D1" : 9223372036854775807,
+    "403EEF8CBED78186A1140000B605C932AD9D3C72" : 9223372036854775807,
+    "78E521676BA6449083B1544C92515776C1CFB50C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DAB1260A-387C-453C-8459-97B006DCE885",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01AA6467AF8AB7E06766E8BFB262A430BD1FA7D1" : "Kanito.3.0\/",
+    "403EEF8CBED78186A1140000B605C932AD9D3C72" : "CsenCinofilia.3.0\/",
+    "78E521676BA6449083B1544C92515776C1CFB50C" : "SwiftClass\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CsenCinofilia",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CsenCinofilia.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LucianoCalderano\/kanito.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01AA6467AF8AB7E06766E8BFB262A430BD1FA7D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LucianoCalderano\/csen-3-0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "403EEF8CBED78186A1140000B605C932AD9D3C72"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LucianoCalderano\/swiftclass.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78E521676BA6449083B1544C92515776C1CFB50C"
+    }
+  ]
+}
