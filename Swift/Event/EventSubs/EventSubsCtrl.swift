@@ -29,7 +29,7 @@ class EventSubsCtrl: MyViewController {
     
     @IBOutlet private var tableView: UITableView!
     
-    let userId = UserClass().getUserProfile().int("Account.id")
+    let userId = UserClass.sharedInstance.getAccountId()
     var eventId = 0
 
     var dicHttp = [String: Any]()

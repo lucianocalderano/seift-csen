@@ -22,9 +22,9 @@ class UserProfileCtrl: MyViewController {
         
         //TODO: Footer
 
-        let dict = UserClass().getUserProfile()
+        let dict = UserClass.sharedInstance.getUserProfile()
         
-        switch UserClass().userType {
+        switch UserClass.sharedInstance.userType {
         case UserType.Athl:
             let temp = dict.dictionary("Athlete")
             self.dataArray = [

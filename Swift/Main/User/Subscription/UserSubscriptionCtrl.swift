@@ -19,7 +19,7 @@ class UserSubscriptionCtrl: MyViewController, UIScrollViewDelegate, UITableViewD
     }
     
     func loadData() {
-        let dicUser = UserClass().getUserProfile()
+        let dicUser = UserClass.sharedInstance.getUserProfile()
         let request =  MYHttpRequest.base("list-reservations")
         request.json = [
             "athlete_id" : dicUser.string("Athlete.account_id")

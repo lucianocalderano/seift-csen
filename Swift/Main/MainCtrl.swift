@@ -48,7 +48,7 @@ class MainCtrl : UIViewController, EventTypeCtrlDelegate {
         switch (sender) {
         case btnUser:
             strStor = NextSb.user.rawValue
-            strCtrl = UserClass().userType == UserType.None ? "" : "UserProfileCtrl"
+            strCtrl = UserClass.sharedInstance.userType == UserType.None ? "" : "UserProfileCtrl"
         case btnNews:
             strStor = NextSb.news.rawValue
         case btnRuns:

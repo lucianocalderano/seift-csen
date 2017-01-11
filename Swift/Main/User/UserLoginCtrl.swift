@@ -62,7 +62,7 @@ class UserLoginCtrl: MyViewController {
                 self.showError("Server error (null user)")
             }
             else {
-                UserClass().saveUser(dicUser, name: txtUser.text! as String, pass: txtPass.text!)
+                UserClass.sharedInstance.saveUser(dicUser, name: txtUser.text! as String, pass: txtPass.text!)
                 let ctrl = UserProfileCtrl.instanceFromSb(self.storyboard)
                 self.navigationController?.show(ctrl, sender: self)
             }

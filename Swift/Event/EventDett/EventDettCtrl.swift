@@ -29,7 +29,7 @@ class EventDettCtrl: MyViewController {
         self.eventDettSubview!.update(self.dicData)
         
         self.loadEventId(self.dicData.string("id"))
-        btnSign.isHidden = UserClass().userType == UserType.Club
+        btnSign.isHidden = UserClass.sharedInstance.userType == UserType.Club
     }
     
     override func viewDidLayoutSubviews() {

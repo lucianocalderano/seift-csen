@@ -15,6 +15,8 @@ enum UserType: String {
 }
 
 class UserClass: NSObject {
+    static let sharedInstance = UserClass()
+
     var userType:UserType {
         set {
             self.userType = newValue
@@ -62,6 +64,10 @@ class UserClass: NSObject {
         UserDefaults.standard.setValue(pass, forKey: keyPass)
         UserDefaults.standard.setValue(dict, forKey: keyProf)
         UserDefaults.standard.synchronize()
+    }
+    
+    func getAccountId () -> Int {
+        return self.getUserProfile().int("Account.id")
     }
 }
 
